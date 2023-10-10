@@ -1,7 +1,7 @@
 Jenkinsfile (Declarative Pipeline)
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { docker { image 'jenkins/jenkins:latest' } }
+    agent { docker { image 'jenkins/jenkins' } }
     stages {
         stage('build') {
             steps {
