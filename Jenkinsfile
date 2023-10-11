@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh './gradlew clean build'
                 echo 'Build complete'
+                echo 'Triggered'
             }
         }
     }
